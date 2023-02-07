@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "password": "maria12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "maria@gmail.com",
+      "mobileNumber": 1234567890,
+      "pincode": 123456,
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "name": "MOHAMMED MASTHAN VALI",
+      "password": "mas@123",
+      "gender": "M",
+      "dateOfBirth": "1999-05-14",
+      "email": "mas@gmail.com",
+      "mobileNumber": 9898989898,
+      "pincode": 515801,
+      "city": "Guntakal",
+      "state": "Andhra Pradesh",
+      "country": "Indian",
+      "id": 2
+    }
+  ],
+  "coaches": [
+    {
+      "id": 1,
+      "name": "Rose",
+      "password": "rose12345",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "mobileNumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "id": 2,
+      "name": "SMD",
+      "password": "smd12345",
+      "gender": "M",
+      "dateOfBirth": "1996-01-01",
+      "mobileNumber": 1234567890,
+      "speciality": "Confidence Issues"
+    },
+    {
+      "name": "Malu",
+      "password": "malu12345",
+      "dateOfBirth": "2022-08-29",
+      "gender": "F",
+      "mobileNumber": 8989898989,
+      "speciality": "Anything",
+      "id": 3
+    },
+    {
+      "name": "Tanu",
+      "password": "tanu12345",
+      "dateOfBirth": "1998-10-05",
+      "gender": "F",
+      "mobileNumber": 9876543210,
+      "speciality": "Master In Everything",
+      "id": 4
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentDate": "2022-09-16",
+      "slot": "9 AM to 10 AM",
+      "userId": 1,
+      "coachId": 2,
+      "id": 3
+    },
+    {
+      "appointmentDate": "2022-09-30",
+      "slot": "9 AM to 10 AM",
+      "userId": 2,
+      "coachId": 1,
+      "id": 5
+    },
+    {
+      "appointmentDate": "2022-09-29",
+      "slot": "4 PM to 5 PM",
+      "userId": 2,
+      "coachId": 3,
+      "id": 6
+    },
+    {
+      "appointmentDate": "2022-09-21",
+      "slot": "4 PM to 5 PM",
+      "userId": 2,
+      "coachId": 1,
+      "id": 7
+    },
+    {
+      "appointmentDate": "2022-09-30",
+      "slot": "4 PM to 5 PM",
+      "userId": 1,
+      "coachId": 1,
+      "id": 8
+    },
+    {
+      "appointmentDate": "2022-11-30",
+      "slot": "4 PM to 5 PM",
+      "userId": 1,
+      "coachId": 2,
+      "id": 9
+    }
+  ]
+}
